@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-labelledby="title">
+  <title id="title">SightSweep - IP Scanner</title>
+  <g transform="translate(18 12) scale(.58)">
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M256 91V58M141 339l-29 22M371 339l29 22" stroke="#1677FF" stroke-width="18"/>
+      <circle cx="256" cy="50" r="28" fill="#0B1533" stroke="#21D4FD" stroke-width="14"/>
+      <circle cx="91" cy="378" r="28" fill="#0B1533" stroke="#21D4FD" stroke-width="14"/>
+      <circle cx="421" cy="378" r="28" fill="#0B1533" stroke="#21D4FD" stroke-width="14"/>
+      <circle cx="256" cy="242" r="157" fill="#0B1533" stroke="#1677FF" stroke-width="20"/>
+      <circle cx="256" cy="242" r="108" stroke="#1677FF" stroke-width="8" opacity=".65"/>
+      <path d="M256 242L374 124A157 157 0 0 1 413 242Z" fill="#21D4FD" opacity=".24" stroke="none"/>
+      <path d="M119 242c35-61 82-91 137-91s102 30 137 91c-35 61-82 91-137 91s-102-30-137-91Z" fill="#F4F8FF" stroke="#21D4FD" stroke-width="8"/>
+      <circle cx="256" cy="242" r="67" fill="#101F47" stroke="#1677FF" stroke-width="12"/>
+      <circle cx="256" cy="242" r="31" fill="#21D4FD"/>
+    </g>
+  </g>
+  <text x="345" y="155" font-family="Segoe UI, Arial, sans-serif" font-size="104" font-weight="750" letter-spacing="-3" fill="#F4F8FF">Sight<tspan fill="#21D4FD">Sweep</tspan></text>
+  <text x="351" y="221" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="650" letter-spacing="9" fill="#9FB0CC">IP SCANNER</text>
+</svg>
+

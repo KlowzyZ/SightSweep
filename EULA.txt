@@ -1,0 +1,46 @@
+SIGHTSWEEP FREEWARE END USER LICENSE AGREEMENT
+Version 1.0 — Effective 25 August 2026
+
+Copyright © 2026 KLOWZY. All rights reserved.
+
+By installing, copying, or using the compiled SightSweep application (the “Software”), you agree to these terms. If you do not agree, do not use the Software.
+
+1. License grant
+
+KLOWZY grants you a limited, non-exclusive, non-transferable, revocable license to install and use the unmodified compiled Software without charge for lawful personal use and internal commercial network administration. You may use it only on networks and devices you own or are explicitly authorized to manage.
+
+2. Restrictions
+
+You may not redistribute, sublicense, rent, lease, sell, host, publish, or commercially exploit the Software; modify or create derivative works from it; remove proprietary notices; or use it to gain unauthorized access, guess credentials, bypass security controls, exploit devices, or scan networks without authorization. Except where applicable law expressly permits it despite this restriction, you may not reverse engineer, decompile, or disassemble the Software.
+
+3. Updates and network access
+
+SightSweep may make an anonymous HTTPS request to the public KlowzyZ/SightSweep GitHub Releases endpoint to check for stable updates. Automatic checks are enabled by default and may be disabled in Settings. The Software does not transmit scan results, projects, credentials, telemetry, or analytics. Updates are downloaded and installed only through an explicit user action.
+
+4. Ownership
+
+The Software is licensed, not sold. KLOWZY retains all rights, title, and interest in the Software, its private source code, branding, and documentation, except for third-party components identified in THIRD_PARTY_NOTICES.txt. No source-code or redistribution rights are granted.
+
+5. Third-party components
+
+Third-party components are governed by their respective licenses and notices in THIRD_PARTY_NOTICES.txt. Those terms apply only to the relevant components and do not make SightSweep open-source software.
+
+6. No warranty
+
+THE SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, AVAILABILITY, OR THAT EVERY DEVICE WILL BE DISCOVERED. YOU ARE RESPONSIBLE FOR VERIFYING RESULTS AND MAINTAINING AUTHORIZATION, BACKUPS, AND NETWORK SAFETY.
+
+7. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, KLOWZY WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOSS OF DATA, PROFITS, REVENUE, BUSINESS, OR NETWORK AVAILABILITY, ARISING FROM OR RELATED TO THE SOFTWARE. KLOWZY’S TOTAL LIABILITY FOR ALL CLAIMS WILL NOT EXCEED THE AMOUNT YOU PAID FOR THE SOFTWARE.
+
+8. Termination
+
+This license terminates automatically if you breach these terms. On termination, stop using and delete all copies of the Software. Sections concerning ownership, restrictions, warranty, liability, and third-party terms survive termination.
+
+9. Applicable law
+
+Mandatory consumer rights and other rights that cannot lawfully be excluded remain unaffected. If any term is unenforceable, it will be limited to the minimum extent necessary and the remaining terms will continue in effect.
+
+10. Entire agreement
+
+These terms and the included third-party notices form the entire agreement for the Software and replace prior license drafts concerning this release.

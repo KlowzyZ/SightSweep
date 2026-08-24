@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a reproducible SightSweep problem without sharing secrets.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include passwords, credential-bearing URLs, camera images, customer names, public IPs, or complete private network inventories.
+  - type: input
+    id: version
+    attributes:
+      label: SightSweep version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2 x64
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the expected and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Select adapter...
+        2. Start Quick Scan...
+        3. Observe...
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Network authorization
+      options:
+        - I own or am authorized to administer the tested network
+        - I used only the built-in mock/test environment
+    validations:
+      required: true
+  - type: checkboxes
+    id: redaction
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed credentials and private customer/network data.
+          required: true
