@@ -9,11 +9,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/KlowzyZ/SightSweep/releases/latest"><strong>Download SightSweep 1.0.0</strong></a>
+  <strong>SightSweep 1.0.0</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/KlowzyZ/SightSweep/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/KlowzyZ/SightSweep?display_name=tag&sort=semver"></a>
+  <img alt="Latest release" src="https://img.shields.io/github/v/release/KlowzyZ/SightSweep?display_name=tag&sort=semver">
   <img alt="Windows 11" src="https://img.shields.io/badge/Windows-11_x64-1677FF">
   <img alt="Architecture" src="https://img.shields.io/badge/build-self--contained_win--x64-21D4FD">
 </p>
@@ -47,7 +47,7 @@ Read [Privacy](PRIVACY.md) and [Privacy and security details](docs/privacy-and-s
 
 ## Installation
 
-1. Open the [latest release](https://github.com/KlowzyZ/SightSweep/releases/latest).
+1. Open the public `KlowzyZ/SightSweep` repository’s **Releases** section.
 2. Download `SightSweep-v1.0.0-win-x64.exe` or the portable ZIP.
 3. Verify the file against `SHA256SUMS.txt`.
 4. Run `SightSweep.exe`. The build is self-contained and does not require a separately installed .NET runtime.
