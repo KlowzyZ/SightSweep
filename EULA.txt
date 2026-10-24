@@ -1,5 +1,5 @@
-SIGHTSWEEP FREEWARE END USER LICENSE AGREEMENT
-Version 1.0 — Effective 25 August 2026
+﻿SIGHTSWEEP FREEWARE END USER LICENSE AGREEMENT
+Version 1.1 — Effective 25 October 2026
 
 Copyright © 2026 KLOWZY. All rights reserved.
 
@@ -15,7 +15,7 @@ You may not redistribute, sublicense, rent, lease, sell, host, publish, or comme
 
 3. Updates and network access
 
-SightSweep may make an anonymous HTTPS request to the public KlowzyZ/SightSweep GitHub Releases endpoint to check for stable updates. Automatic checks are enabled by default and may be disabled in Settings. The Software does not transmit scan results, projects, credentials, telemetry, or analytics. Updates are downloaded and installed only through an explicit user action.
+SightSweep may make an anonymous HTTPS request to the public KlowzyZ/SightSweep GitHub Releases endpoint to check for stable updates. Automatic checks are enabled by default for new profiles, run without blocking startup, and are limited to approximately once every 24 hours. They may be disabled in Settings; existing explicitly saved preferences are retained. Manual checks require an explicit user action. The Software does not transmit scan results, projects, credentials, telemetry, or analytics. Updates are downloaded and installed only through an explicit user action.
 
 4. Ownership
 

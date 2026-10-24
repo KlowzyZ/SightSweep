@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <strong>SightSweep 1.0.0</strong>
+  <strong>SightSweep 2.0.0 Stable</strong>
 </p>
 
 <p align="center">
@@ -22,17 +22,18 @@ SightSweep is a local-first Windows IPv4 scanner. It discovers reachable devices
 
 ## Screenshots
 
-![SightSweep network discovery](assets/sightsweep-dashboard.jpg)
+![SightSweep 2.0 compact discovery workspace](assets/sightsweep-2-scan.png)
 
-![SightSweep update settings](assets/sightsweep-settings.jpg)
+Illustrative inventory using deterministic sample devices.
 
 ## Features
 
-- Progressive ARP, ICMP, bounded TCP, reverse-DNS, and ONVIF WS-Discovery.
+- Progressive ARP/neighbor, ICMP, bounded TCP, reverse-DNS, ONVIF WS-Discovery, SSDP and mDNS discovery, with optional NetBIOS enrichment.
 - Unknown devices remain visible even when classification evidence is incomplete.
 - Specialized evidence for IP cameras, NVRs, DVRs, ONVIF, RTSP, and common device services.
-- Search, camera/recorder filtering, device details, and safe local web-interface links.
-- Local projects, scan history, scan comparison, and credential-free CSV/JSON exports.
+- Compact scan controls and summary, a prominent virtualized/resizable table, search/filtering, optional resizable evidence and safe local web-interface links.
+- Local projects, saved networks, scan history/comparison, CSV/JSON exports and confirmed cross-scan identities with revision-protected labels/notes. IP reuse alone never links annotations.
+- Quick/Thorough modes, selected adapter/source handling and CIDR or exact inclusive IPv4 ranges up to 4,096 hosts.
 - Responsive cancellation and bounded concurrency; no Nmap, Npcap, driver, or administrator requirement for normal scans.
 - English, Turkish, and Arabic localization with right-to-left Arabic layout.
 - Keyboard navigation, visible focus, high contrast, and non-color status cues.
@@ -41,16 +42,18 @@ SightSweep is a local-first Windows IPv4 scanner. It discovers reachable devices
 
 Scan results, projects, history, and exports stay on your computer. SightSweep has no telemetry, analytics, advertisements, cloud upload, or account requirement.
 
-Automatic stable-update checks are enabled by default and can be disabled in Settings. An update check sends only a normal anonymous HTTPS request for public release metadata; it never sends scan data. SightSweep opens the verified public release page and does not replace its executable in place.
+Automatic Stable update checks are enabled for new profiles, run in the background and are throttled to approximately once every 24 hours. Explicit saved disabled preferences are retained. Checks can be disabled in Settings. An update check sends only a normal anonymous HTTPS request for public release metadata; it never sends scan data. SightSweep opens the public release page only when requested and never installs updates automatically.
 
 Read [Privacy](PRIVACY.md) and [Privacy and security details](docs/privacy-and-security.md).
 
 ## Installation
 
 1. Open the public `KlowzyZ/SightSweep` repository’s **Releases** section.
-2. Download `SightSweep-v1.0.0-win-x64.exe` or the portable ZIP.
+2. Download **SightSweep-v2.0.0-win-x64.exe** for the per-user installer, or **SightSweep-v2.0.0-win-x64.zip** for portable use.
 3. Verify the file against `SHA256SUMS.txt`.
-4. Run `SightSweep.exe`. The build is self-contained and does not require a separately installed .NET runtime.
+4. Close running SightSweep instances. The EXE installs per user without requesting administrator rights by default, creates a Start Menu shortcut and offers an optional desktop shortcut. For portable use, extract the whole ZIP and run SightSweep.exe. Both options bundle .NET.
+
+Stable retains the original `%LOCALAPPDATA%\SightSweep` data root. Installation/uninstallation does not delete projects, history, annotations, settings or exports. Back up important data before upgrading. Preview data remains separate and is not automatically merged. Previous releases/assets remain available unchanged.
 
 See the [getting-started guide](docs/getting-started.md) for usage and checksum commands.
 
@@ -65,10 +68,11 @@ Use SightSweep only on local networks and devices you own or are explicitly auth
 ## Known limitations
 
 - Sleeping devices, host firewalls, VLAN boundaries, Wi-Fi client isolation, routing, and disabled discovery protocols can hide otherwise connected devices.
-- Version 1.0.0 focuses on IPv4. IPv6 discovery is not included.
+- SightSweep 2.0 focuses on IPv4. IPv6 discovery is not included.
 - ONVIF detection is credential-free; devices with discovery disabled or isolated may not respond.
 - Vendor/OUI lookup and embedded RTSP preview are not included in this release.
-- Code signing is not yet available, so Windows may show a reputation warning for the first public build.
+- Code signing is not yet available; Windows reputation and organization policy may affect launch.
+- Windows 11 x64 is the primary tested platform; the installer also permits Windows 10 22H2 x64. Exhaustive device, routing, OS/display/accessibility and enterprise deployment coverage is not claimed.
 
 ## License and repository model
 
@@ -82,4 +86,4 @@ Use GitHub Issues for redacted bug reports and feature requests. Report product 
 
 ## Developer
 
-[Developed by KLOWZY](https://github.com/KlowzyZ)
+Developed by KLOWZY · [Official website](https://klowzy.com)

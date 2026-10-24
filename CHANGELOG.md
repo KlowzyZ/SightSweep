@@ -2,6 +2,15 @@
 
 All notable public SightSweep changes are documented here.
 
+## [2.0.0] - 2026-10-25
+
+- Broader layered IPv4 discovery and evidence enrichment, selected-interface handling, Quick/Thorough modes, exact ranges and redacted diagnostics.
+- Compact results-focused workspace, virtualized/resizable columns, optional evidence pane, improved Settings/About and EN/TR/AR support.
+- Saved networks, history/comparisons, local exports and confirmed cross-scan identities with revision-protected labels/notes and conservative ambiguity handling.
+- Branded per-user Inno Setup installer, optional desktop shortcut, running-instance guard, in-place updates and uninstall that retains data; portable ZIP remains available.
+- New profiles receive background daily Stable checks; explicit disabled choices remain unchanged. No scan data/telemetry is sent and updates never install automatically.
+- Owner-tested scanning/interface; focused release gates cover updates/UI, per-user installer lifecycle/data retention and portable startup. No exhaustive device/routing/OS compatibility claim. Previous releases/assets are preserved.
+
 ## [1.0.0] - 2026-08-25
 
 ### Added
